@@ -1,26 +1,19 @@
 {
-  "name": "websockets-playlist",
+  "name": "chatjs",
   "version": "1.0.0",
-  "description": "A chat app using WebSockets",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iamshaunjp/websockets-playlist.git"
-  },
-  "author": "The Net Ninja",
+  "author": "me",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iamshaunjp/websockets-playlist/issues"
-  },
-  "homepage": "https://github.com/iamshaunjp/websockets-playlist#readme",
   "dependencies": {
-    "express": "^4.15.2",
-    "socket.io": "^1.7.3"
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^2.0.20"
   }
 }
